@@ -1,0 +1,15 @@
+package layouts
+
+
+templ BaseLayout(title string){
+  <html>
+    <head>
+        <link href="/static/css/output.css" rel="stylesheet"/>
+        <title>{title}</title>
+    </head>
+    <body>
+      <h1 class="text-red-200 text-xl">Hola</h1>
+      <main>{children...}</main>
+    </body>
+  </html>
+}

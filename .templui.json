@@ -1,0 +1,7 @@
+{
+  "componentsDir": "internal/views/components",
+  "utilsDir": "pkg/utils",
+  "moduleName": "github.com/moschetti1/cronsearch",
+  "jsDir": "web/assets/js",
+  "jsPublicPath": "/web/static/js"
+}

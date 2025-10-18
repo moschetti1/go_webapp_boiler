@@ -1,0 +1,18 @@
+package pages
+
+import "github.com/moschetti1/cronsearch/internal/views/layouts"
+import "github.com/moschetti1/cronsearch/internal/views/components/button"
+
+templ HomePage(title string){
+  @layouts.BaseLayout(title){
+    <div class="text-2xl text-red-700">
+      Tas en casa
+    </div>
+    <p>
+        vos sos loco
+    </p>
+    @button.Button(){
+      Hola
+    } 
+  }
+}
