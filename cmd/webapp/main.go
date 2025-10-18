@@ -26,7 +26,7 @@ func main() {
 	}
 	repo := repository.New(db)
 
-	sessionManager := session.NewSessionManager([]byte(config.DBURL))
+	sessionManager := session.NewSessionManager([]byte(config.CookieSecret))
 
 	authHandler := handlers.NewAuthHandler(repo, sessionManager)
 
